@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Timber.i("onCreate() called")
+        Timber.i("onCreate() called from Timber")
     }
 }
